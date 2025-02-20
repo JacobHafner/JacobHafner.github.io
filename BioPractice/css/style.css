@@ -1,0 +1,16 @@
+.alert {
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.blue {
+    background: blue;
+}
+
+.intro {
+    font-size: 24px;
+    color: darkblue;
+    padding: 20px 60px;
+}
