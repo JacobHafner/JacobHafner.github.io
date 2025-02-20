@@ -1,0 +1,43 @@
+/*Jacob Hafner
+Febuary 20 2025*/
+
+header {
+    background-color: aqua;
+}
+
+footer{
+  background-color: aqua;
+}
+
+a:active {
+    color: red;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  a:visited {
+    color: yellow;
+  }
+
+  a:link {
+    color: orangered;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 20px
+    ;
+  }
+
+
+
+
