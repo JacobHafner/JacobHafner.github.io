@@ -1,0 +1,11 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'HomemadeApple';
+    src: url('../fonts/HomemadeApple-webfont.woff') format('woff')
+
+}
+
+body{
+	font-family: 'HomemadeApple', "Times New Roman", serif;
+}
