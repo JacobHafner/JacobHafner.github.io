@@ -1,0 +1,72 @@
+
+/*Jacob Hafner
+4/1/2025 */
+html {
+	background: url(../images/jewelry.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+	 
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin: 0 auto;
+}
+footer {
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.necklace {
+	float: left;
+	border-radius: 50%;
+	margin-right: 10%;
+}
+
+nav ul{
+	list-style: none;
+	font-size: 1.5em;
+	padding: 0;
+	margin: 0;
+}
+  
+  .pacifico-regular {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+  h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	}
+
+	.roboto {
+		font-family: "Roboto", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		font-variation-settings:
+		  "wdth" 100;
+	  }
+
+	  h2 {
+		font-family: 'Roboto', italic;
+		font-size: 2em;
+	  }
+	  footer {
+		text-align: center;
+	  }
+  
