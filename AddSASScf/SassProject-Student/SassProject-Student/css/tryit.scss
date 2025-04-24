@@ -1,0 +1,33 @@
+$nav-bg-color: #C5A98B;
+$link-color: #000;
+$link-hover-bg: #7a6b48;
+$link-hover-color: #880000;
+
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: $nav-bg-color;
+
+    li {
+      a {
+        display: block;
+        color: $link-color;
+        padding: 8px 16px;
+        text-decoration: none;
+
+        &:hover:not(.active) {
+          background-color: $link-hover-bg;
+          color: $link-hover-color;
+        }
+
+        &.active {
+          background-color: $link-hover-bg;
+          color: $link-color;
+        }
+      }
+    }
+  }
+}
