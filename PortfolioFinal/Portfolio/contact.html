@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Jacob Hafner
+     1/28/2025-->
+         <html lang="en">
+         <head>
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+            <title>Contact</title>
+            <meta name="author" content="Jacob Hafner" />
+            <meta charset="UTF-8" />
+            <meta name="description" content="Jacob Hafner contacts for employment" />
+            <meta name="keywords" content="client-side server-side software developer programmer" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link href="css/formstyles.css" type="text/css" rel="stylesheet">
+         </head>
+         <body>
+            <header>
+                <h1>Contact Me</h1>
+                <nav>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+                <form action="mailto:jakehafner@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                    <!-- Group Fields Together-->
+                    <fieldset>
+                    <legend>How do I contact you?</legend>
+                        <!-- Company input type="text" completed below for you as an example-->
+                        <div>         
+                            <label for="compName">Company name:</label><br>
+                            <input type="text" id="compName" name="CompanyName" placeholder="Your Company Name" required><br>
+                        </div>
+                        
+                        <!-- Person to Contact input type="text" -->
+                        <div>
+                        <label for="fname">Person to contact: </label><br>
+                        <input type="text" id="fname" name="Name" placeholder="Your Name" required><br><br>
+                        </div>
+            
+                        <!-- Email Text Box input type="text" -->	
+                        <!--Video 9.9 Building and Testing a Valid Form-->	
+                        <div>
+                        <label for="email">Email:</label> <br>
+                        <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                        </div>
+            
+                        <!-- Phone Number input type="text" -->
+                        <!--Video 9.9 Building and Testing a Valid Form-->
+                        <div>
+                            <label for="Phone">Phone Number:</label><br>
+                            <input type="tel" name="Phone" id="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required/>
+                        </div>
+                    </fieldset>
+            
+                    <!-- Group Fields Together, page 104 -->
+                    <fieldset>
+                        <legend>What opportunities are available at your company?</legend>
+                        <!-- Select Box, https://www.w3schools.com/tags/tag_select.asp -->
+                        <label>Type of Position:</label><select name="Opportunities" id="opportunities">
+                            <option value="Internship">Internship</option>
+                            <option value="Part-Time">Part-Time</option>
+                            <option value="Full-Time">Full-Time</option>
+                            <option value="Contract">Contract</option>
+                            <option value="Temporary">Temporary</option> 
+                            <option value="On Call">On Call</option>
+                          </select><br>
+                       
+                        <!-- Radio Buttons, https://www.w3schools.com/tags/att_input_type_radio.asp -->
+                       
+                        <br>
+                         <label> How did you find me? </label>
+                        <br>
+                         
+                        <input type="radio" id="LinkedIn" name="source" value="LinkedIn">
+                        <label for="LinkedIn">LinkedIn</label>
+                        <input type="radio" id="JobFair" name="source" value="JobFair">
+                        <label for="JobFair">Job Fair</label>
+                        <input type="radio" id="CWICorporatePartner" name="source" value="CWICorporatePartner">
+                        <label for="CWICorporatePartner">CWI Corporate Partner</label>
+
+                        <div>
+                            <!-- Text Area, https://www.w3schools.com/tags/tag_textarea.asp -->
+<textarea id="w3review" name="Preparations" rows="10" cols="100" placeholder="How should I prepare for the interview?">
+</textarea>
+                        </div>
+                    </fieldset>
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                 </form>
+            
+            <main>
+                <p>Feel free to reach out via email at <a href="mailto:example@example.com">Hafner3232@gmail.com</a>  or by phone at <a href="tel:+1234567890">+1 (907) 830-8434</a>!</p>
+            </main>
+            <footer>
+                <hr>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="image/LinkedIn.png" alt = "LinkedIn Photo by Icons8">
+                </a> |
+                <a href="https://github.com/JacobHafner/JacobHafner.github.io" target="_blank">
+                    <img src="image/GitHubLogo.png" alt = "GitHubLogo by Icons8">
+                </a>
+                <p>&copy; 2025 Jacob Hafner</p>
+            </footer>
+         </body>
+         </html>

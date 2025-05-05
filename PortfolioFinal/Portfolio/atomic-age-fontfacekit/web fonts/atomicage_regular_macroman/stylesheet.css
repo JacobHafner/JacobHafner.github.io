@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'atomic_ageregular';
+    src: url('atomicage-regular-webfont.eot');
+    src: url('atomicage-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('atomicage-regular-webfont.woff2') format('woff2'),
+         url('atomicage-regular-webfont.woff') format('woff'),
+         url('atomicage-regular-webfont.ttf') format('truetype'),
+         url('atomicage-regular-webfont.svg#atomic_ageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
